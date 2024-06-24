@@ -1,0 +1,8 @@
+--- scancode.conf	2023-11-22 10:38:18.000000000 +0100
++++ scancode_mod.conf	2023-12-08 17:52:33.757401300 +0100
+@@ -20,4 +20,4 @@
+ ; A comma separated list of values.
+ ; Directives:
+ ;     EXCLUSIVE: the agent cannot run concurrently with any other agent.
+-special[] =
++special[] = NOKILL
